@@ -1,0 +1,119 @@
+.imagenPrincipal { 
+    background-image: url("../img/4486959.jpg"); 
+    background-size: 100%; 
+    height: 700px; 
+    width: auto; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    margin-left: auto; 
+    margin-right: auto; 
+  } 
+
+
+.redes{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+.icon{
+    display: flex;
+    width: 40px;
+    height:40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon :hover{
+    display: flex;
+    width: 40px;
+    height:40px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e68cb9;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+}
+nav li{
+    display: inline-flex;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+
+nav li:hover{
+    color: #e68cb9;
+    cursor: pointer;
+
+}
+.logo{
+    flex-basis: 10%;
+}
+
+.contenido{
+    background-image: url("../img/pine-wood-texture.jpg"); 
+    background-size: 100%; 
+    display: flex;
+    column-gap: 40px;
+    padding: 100px 20px 100px 20px;
+
+}
+
+.col1{
+    flex-basis: 24.6%;
+}
+
+.col2{
+    flex-basis: 49.8%;
+
+}
+
+.imagen{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.galeria{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+
+}
+
+.caja{
+    background-color: lightblue;
+}
+
+.A{
+    grid-column: 1/span 2;
+}
+
+.B{
+    grid-column: 3;
+    grid-row: 1/span 2;
+}
+
+.productos{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+
+}
+
