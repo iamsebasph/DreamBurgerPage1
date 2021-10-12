@@ -11,7 +11,6 @@
     margin-right: auto; 
   } 
 
-
 .redes{
     display: flex;
     column-gap: 20px;
@@ -43,30 +42,28 @@
 
 nav{
     display: flex;
-    height: 80px;
+    height: 100px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 1px solid gray;
 }
-nav li{
+.menu{
     display: inline-flex;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     margin-left: 20px;
 }
 
-nav li:hover{
-    color: #e68cb9;
+.seccion:hover{
+    color: #118ab2;
     cursor: pointer;
 
 }
-.logo{
-    flex-basis: 10%;
-}
+
 
 .contenido{
-    background-image: url("../img/pine-wood-texture.jpg"); 
+    background-image: url("../img/front-view-burger-on-stand.jpg"); 
     background-size: 100%; 
     display: flex;
     column-gap: 40px;
@@ -80,6 +77,9 @@ nav li:hover{
 
 .col2{
     flex-basis: 49.8%;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
 
 }
 
@@ -117,7 +117,12 @@ nav li:hover{
 
 }
 
-.logo{
-    
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    column-gap: 40px;
 }
+
 
