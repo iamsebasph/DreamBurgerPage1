@@ -47,12 +47,19 @@ nav{
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 1px solid gray;
+   
 }
 .menu{
     display: inline-flex;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     margin-left: 20px;
+    
+}
+
+.logo{
+    align-items: center;
+    justify-content: center;
 }
 
 .seccion:hover{
@@ -63,7 +70,7 @@ nav{
 
 
 .contenido{
-    background-image: url("../img/front-view-burger-on-stand.jpg"); 
+    background-image: url("../img/blurred-bokeh-style-lights-in-the-evening.jpg"); 
     background-size: 100%; 
     display: flex;
     column-gap: 40px;
@@ -90,18 +97,30 @@ nav{
 
 .galeria{
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 8px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
+    background-image: url("../img/fondoA.png"); 
+    background-size: 100%; 
+    height: 700px; 
+    width: auto; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    margin-left: auto; 
+    margin-right: auto; 
+
+    
 
 }
 
 .caja{
-    background-color: lightblue;
+  width: 100%;
 }
 
 .A{
     grid-column: 1/span 2;
+    align-self: start;
 }
 
 .B{
@@ -125,4 +144,158 @@ nav{
     column-gap: 40px;
 }
 
+body{
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ffffff;
+  }
+  
+  
+  .contact_form{
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #000000;
+    padding-left: 30px;
+  }
+  
+  
+  input{
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
+  
+  
+  label{
+    display: block;
+  }
+  
+  
+  button{
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #000000;
+  }
+  
+  
+  span{
+    color: #ffffff;
+  }
+  
+  
+  .aviso{
+    font-size: 13px;
+    color: #ffffff;
+  }
+  
+  
+  h1{
+    font-size: 39px;
+    padding-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  
+  h3{
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #ffffff;
+  }
+  
+  
+  p{
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  a:link, a:visited, a:active {
+    text-decoration:none;
+}
 
+
+
+.carta{
+  background-image: url("../img/menu2.png"); 
+  background-size: 100%;
+  height: 1000px; 
+  width: auto; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover; 
+   
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.contenido{
+  font-family: 'Architects Daughter', cursive;
+}
+
+.story{
+  background-image: url("../img/DREAMBURGER.png");
+  background-size: 100%;
+  height: 700px; 
+  width: auto; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover; 
+   
+  margin-left: auto; 
+  margin-right: auto; 
+}
